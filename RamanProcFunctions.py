@@ -240,7 +240,7 @@ def map_proc(spectra, wn, peak_dict, order, reader):
     try:
         df['ID/ID_prime'] = df.I_D/df.I_D_prime
     except:
-        print('No D or G intensity column')
+        print('No D or D_prime intensity column')
     try:
         df['I2D/IG'] = df.I_2D/df.I_G
     except:
